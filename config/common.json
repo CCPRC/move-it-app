@@ -1,0 +1,18 @@
+{
+  "dbServer": {
+    "url": "https://rhinogram:lincs2015@couchdb.lincs.io/move_it"
+  },
+  "aws": {
+      "accessKeyId": "AKIAI7FBDG3UICCOPSNA",
+      "secretAccessKey": "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"
+  },
+  "keen": {
+  	"projectId": "56f9712a672e6c02bc29c4d8",
+  	"writeKey": "3e19b4b9bd84d6d407e76d6b97e8a77be02253d8fdcea798a8c40899783ea3c3685e3d3804c11282e21e9f74dea5fb0a2e06bfc71123fca31064d2bdf2d1c3f559a6e621de15ad68b83eeeaacd67d753db0695ae539f8949b528f855be561198",
+  	"readKey": "f1725bf21680f4658c22da1973a52a09446e4d9e5b7569d9ab9a06d5d89877698cd4d638681198148e64bdc4897a66475dd6b3273731cdfb204bbe8b6c5cb741b5c1215418c41a62256a5bef52ce1485161c04205d930527c3439e350147e9a2"
+  },
+  "mapMyFitness": {
+    "key": "w7kxr4nr3kstb78ejqbepz4hvq82qrsc",
+    "secret": "SURhDJHKdyY2X4eas2dHbh3FsyEuWPqCC2fX64UakhF"
+  }
+}

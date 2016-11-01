@@ -1,0 +1,14 @@
+{
+  "extends": "standard",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": false,
+    "protractor": false
+  },
+  "globals": {
+    "_": true,
+    "emit": true,
+    "angular": true
+  }
+}

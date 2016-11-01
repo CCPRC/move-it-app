@@ -1,0 +1,601 @@
+//member 1
+{
+		"_id": "e0e60a22788844ec9e70bba856832b9e",
+		"type": "member",
+		"firstName": "Jimbo",
+		"lastName": "Patterson",
+		"dob": "10-24-1972",
+		"hospital": "St. Peters",
+		"physician": "Dr Rick Marshall",
+		"address": "14882 McDaddy Lane",
+		"state": "SC",
+		"city": "Charleston",
+		"email": "Jimbo.Patterson@gmail.com",
+		"enrolled": "Jan. 20, 2016",
+		"source": "St. Peters",
+		"program": "EIM",
+		"baseline": "Jan. 25, 2016",
+		"group": "Friends on a Mission",
+		"class": "YMCA",
+		"zipcode": "29460",
+		"phoneNumber": "5556789101",
+		"weight": "216",
+		"height": "6'01",
+		"avatar": "http://www.public-domain-photos.com/free-stock-photos-4-big/people/face-12.jpg",
+		"BMI": "28",
+		"diastolic": "82",
+		"systolic": "125",
+		"waist": "38",
+		"w2h": "45"
+}
+		
+//member 2
+{
+		"_id": "e0e60a22788844ec9e70bba856833b4b",
+		"type": "member",
+		"firstName": "Leah",
+		"lastName": "Patel",
+		"dob": "12-12-1989",
+		"hospital": "Paulings",
+		"physician": "Dr Steve Novak",
+		"address": "8823 Bourne-smith Court",
+		"state": "SC",
+		"city": "Charleston",
+		"email": "the.real.patel@gmail.com",
+		"enrolled": "March 07, 2015",
+		"source": "Paulings",
+		"program": "EIM",
+		"baseline": "Jan. 25, 2016",
+		"group": "Young and Fit",
+		"class": "YMCA",
+		"zipcode": "29939",
+		"phoneNumber": "2779309212",
+		"weight": "130",
+		"height": "4'11",
+		"avatar": "http://www.public-domain-photos.com/free-stock-photos-1-big/people/face.jpg",
+		"BMI": "18.5",
+		"diastolic": "78",
+		"systolic": "110",
+		"waist": "28",
+		"w2h": "34"
+}
+//User Example 1
+​
+{
+   "_id": "e0e60a22788844ec9e70bba856786e51",
+   "_rev": "3-c29cbd817fbcd70f86d5bc080441e8e2",
+   "firstName": "Ivan",
+   "lastName": "Idola",
+   "classification": "Navigator",  
+   "organization": "Nulla Industries",
+   "phone": "8340482194",
+   "email": "Ivan.J.Great@hotmai.com",
+   "address": "26 Fredderson Street",
+   "city": "Charleston",
+   "state": "SC",
+   "zipCode": "29422",
+   "organizationAddress": "177 W. Nelly St",
+   "organizationcity": "Charleston",
+   "organizationState": "SC",
+   "organizationZipCode": "29464",
+   "organizationEmail": "info@nullaindustries.com",
+   "organizationPhone": "1234094459",
+   "administrator": "Test",
+   "auth_id": "auth0|56f981430144c1bd63a7866c",
+   "type": "user",
+   "subType": "navigator"
+}
+​
+​
+//User Example 2
+​
+{
+   "_id": "e0e60a22788844ec9e70bba856786e51",
+   "_rev": "3-c29cbd817fbcd70f86d5bc080441e8e2",
+   "firstName": "Julie",
+   "lastName": "Mendel",
+   "classification": "Physician",  
+   "organization": "Lichten Lights INC",
+   "phone": "7336459925",
+   "email": "jj.moneymendel@gmail.com",
+   "address": "27 N. Tryon Rd",
+   "city": "Charleston",
+   "state": "SC",
+   "zipCode": "20433",
+   "organizationAddress": "10943 Long Hampton Avenue",
+   "organizationcity": "Charleston",
+   "organizationState": "SC",
+   "organizationZipCode": "22340",
+   "organizationEmail": "info@LLINC.com",
+   "organizationPhone": "9384210349",
+   "administrator": "Test",
+   "auth_id": "auth0|56f981430144c1bd63a7866c",
+   "type": "user",
+   "subType": "physician"
+}
+​
+//User Example 3
+​
+{
+   "_id": "e0e60a22788844ec9e70bba856786e51",
+   "_rev": "3-c29cbd817fbcd70f86d5bc080441e8e2",
+   "firstName": "Daniel",
+   "lastName": "Finkelstein",
+   "classification": "Trainer",
+   "organization": "Tone and Right",
+   "phone": "8294750284",
+   "email": "FitFinkelstein@gmail.com",
+   "address": "212245 Numbers Lane",
+   "city": "Charleston",
+   "state": "SC",
+   "zipCode": "29405",
+   "organizationAddress": "12 Shape-It Road",
+   "organizationcity": "Charleston",
+   "organizationState": "SC",
+   "organizationZipCode": "29401",
+   "organizationEmail": "hello@toneandright.org",
+   "organizationPhone": "8438408374",
+   "administrator": "Test",
+   "auth_id": "auth0|56f981430144c1bd63a7866c",
+   "type": "user",
+   "subType": "trainer"
+}
+​
+//Assessments 1-5 are for 'user example 1'
+//Assessments 6-10 are for 'user example 2'
+​
+// Assessment example - 1
+​
+{
+   "_id": "e0e60a22788844ec9e70bba8567a9a3b",
+   "_rev": "2-600547176dafb3b4ccca4bb49dd8b0c2",
+   "location": "Charleston",
+   "chairTest1": "9",
+   "chairTest2": "8",
+   "eightFoot1": "15",
+   "eightFoot2": "14",
+   "turnRight": "14",
+   "turnLeft": "28",
+   "armCurl": "20",
+   "heightFt": "6",
+   "heightIn": "01",
+   "weight": "216",
+   "diastolic": "70",
+   "systolic": "110",
+   "waistCirc": "27",
+   "hipCirc": "66",
+   "date": "2016-07-10T08:00:00.000Z",
+   "type": "assessments",
+   "parent_id": "e0e60a22788844ec9e70bba856832b9e",
+   "message": "he needs a lot of work and was struggling on the chair test."
+}
+​
+// Assessment example - 2
+​
+{
+   "_id": "e0e60a22788844ec9e70bba8567a9a3b",
+   "_rev": "2-600547176dafb3b4ccca4bb49dd8b0c2",
+   "location": "Charleston",
+   "chairTest1": "9",
+   "chairTest2": "9",
+   "eightFoot1": "15",
+   "eightFoot2": "16",
+   "turnRight": "28",
+   "turnLeft": "22",
+   "armCurl": "21",
+   "heightFt": "6",
+   "heightIn": "01",
+   "weight": "207",
+   "diastolic": "65",
+   "systolic": "100",
+   "waistCirc": "27",
+   "hipCirc": "65",
+   "date": "2016-08-01T08:00:00.000Z",
+   "type": "assessments",
+   "parent_id": "e0e60a22788844ec9e70bba856832b9e",
+   "message": "Seeing great improvement. Especially in the arm curl. Next assessment will be the real test."
+}
+​
+// Assessment example - 3
+​
+{
+   "_id": "e0e60a22788844ec9e70bba8567a9a3b",
+   "_rev": "2-600547176dafb3b4ccca4bb49dd8b0c2",
+   "location": "Charleston",
+   "chairTest1": "12",
+   "chairTest2": "14",
+   "eightFoot1": "12",
+   "eightFoot2": "17",
+   "turnRight": "32",
+   "turnLeft": "24",
+   "armCurl": "25",
+   "heightFt": "6",
+   "heightIn": "01",
+   "weight": "200",
+   "diastolic": "60",
+   "systolic": "100",
+   "waistCirc": "25",
+   "hipCirc": "64",
+   "date": "2016-08-20T08:00:00.000Z",
+   "type": "assessments",
+   "parent_id": "e0e60a22788844ec9e70bba856832b9e",
+   "message": "Wow. He is really making moves."
+}
+​
+// Assessment example - 4
+​
+{
+   "_id": "e0e60a22788844ec9e70bba8567a9a3b",
+   "_rev": "2-600547176dafb3b4ccca4bb49dd8b0c2",
+   "location": "Charleston",
+   "chairTest1": "14",
+   "chairTest2": "13",
+   "eightFoot1": "14",
+   "eightFoot2": "15",
+   "turnRight": "35",
+   "turnLeft": "27",
+   "armCurl": "29",
+   "heightFt": "6",
+   "heightIn": "01",
+   "weight": "198",
+   "diastolic": "50",
+   "systolic": "90",
+   "waistCirc": "25",
+   "hipCirc": "60",
+   "date": "2016-09-15T08:00:00.000Z",
+   "type": "assessments",
+   "parent_id": "e0e60a22788844ec9e70bba856832b9e",
+   "message": "He is doing awesome. Improvement in all the assessments."
+}
+​
+// Assessment example - 5
+​
+{
+   "_id": "e0e60a22788844ec9e70bba8567a9a3b",
+   "_rev": "2-600547176dafb3b4ccca4bb49dd8b0c2",
+   "location": "Charleston",
+   "chairTest1": "17",
+   "chairTest2": "19",
+   "eightFoot1": "17",
+   "eightFoot2": "16",
+   "turnRight": "33",
+   "turnLeft": "32",
+   "armCurl": "35",
+   "heightFt": "6",
+   "heightIn": "01",
+   "weight": "182",
+   "diastolic": "49",
+   "systolic": "89",
+   "waistCirc": "25",
+   "hipCirc": "60",
+   "date": "2016-010-14T08:00:00.000Z",
+   "type": "assessments",
+   "parent_id": "e0e60a22788844ec9e70bba856832b9e",
+   "message": "A totally transformed person."
+}
+​
+// Assessment example - 6
+​
+{
+   "_id": "e0e60a22788844ec9e70bba8567a9a3b",
+   "_rev": "2-600547176dafb3b4ccca4bb49dd8b0c2",
+   "location": "West Ashley",
+   "chairTest1": "5",
+   "chairTest2": "6",
+   "eightFoot1": "11",
+   "eightFoot2": "14",
+   "turnRight": "22",
+   "turnLeft": "20",
+   "armCurl": "12",
+   "heightFt": "5",
+   "heightIn": "02",
+   "weight": "110",
+   "diastolic": "94",
+   "systolic": "130",
+   "waistCirc": "30",
+   "hipCirc": "70",
+   "date": "2016-02-01T10:00:00.000Z",
+   "type": "assessments",
+   "parent_id": "e0e60a22788844ec9e70bba856833b4b",
+   "message": "she did good"
+}
+​
+// Assessment example - 7
+​
+{
+   "_id": "e0e60a22788844ec9e70bba8567a9a3b",
+   "_rev": "2-600547176dafb3b4ccca4bb49dd8b0c2",
+   "location": "West Ashley",
+   "chairTest1": "5",
+   "chairTest2": "8",
+   "eightFoot1": "13",
+   "eightFoot2": "12",
+   "turnRight": "23",
+   "turnLeft": "25",
+   "armCurl": "14",
+   "heightFt": "5",
+   "heightIn": "02",
+   "weight": "112",
+   "diastolic": "89",
+   "systolic": "125",
+   "waistCirc": "31",
+   "hipCirc": "68",
+   "date": "2016-03-01T10:00:00.000Z",
+   "type": "assessments",
+   "parent_id": "e0e60a22788844ec9e70bba856833b4b",
+   "message": "she did real good"
+}
+
+// Assessment example - 8
+
+{
+   "_id": "e0e60a22788844ec9e70bba8567a9a3b",
+   "_rev": "2-600547176dafb3b4ccca4bb49dd8b0c2",
+   "location": "West Ashley",
+   "chairTest1": "7",
+   "chairTest2": "10",
+   "eightFoot1": "15",
+   "eightFoot2": "16",
+   "turnRight": "25",
+   "turnLeft": "25",
+   "armCurl": "15",
+   "heightFt": "5",
+   "heightIn": "02",
+   "weight": "108",
+   "diastolic": "84",
+   "systolic": "120",
+   "waistCirc": "28",
+   "hipCirc": "64",
+   "date": "2016-04-01T10:00:00.000Z",
+   "type": "assessments",
+   "parent_id": "e0e60a22788844ec9e70bba856833b4b",
+   "message": "she did an awesome job"
+}
+
+// Assessment example - 9
+
+{
+   "_id": "e0e60a22788844ec9e70bba8567a9a3b",
+   "_rev": "2-600547176dafb3b4ccca4bb49dd8b0c2",
+   "location": "West Ashley",
+   "chairTest1": "12",
+   "chairTest2": "11",
+   "eightFoot1": "18",
+   "eightFoot2": "20",
+   "turnRight": "27",
+   "turnLeft": "26",
+   "armCurl": "19",
+   "heightFt": "5",
+   "heightIn": "02",
+   "weight": "100",
+   "diastolic": "80",
+   "systolic": "118",
+   "waistCirc": "25",
+   "hipCirc": "58",
+   "date": "2016-05-01T10:00:00.000Z",
+   "type": "assessments",
+   "parent_id": "e0e60a22788844ec9e70bba856833b4b",
+   "message": "she did a super awesome job"
+}
+// Assessment example - 10
+
+{
+   "_id": "e0e60a22788844ec9e70bba8567a9a3b",
+   "_rev": "2-600547176dafb3b4ccca4bb49dd8b0c2",
+   "location": "West Ashley",
+   "chairTest1": "16",
+   "chairTest2": "19",
+   "eightFoot1": "22",
+   "eightFoot2": "25",
+   "turnRight": "33",
+   "turnLeft": "30",
+   "armCurl": "24",
+   "heightFt": "5",
+   "heightIn": "02",
+   "weight": "92",
+   "diastolic": "75",
+   "systolic": "105",
+   "waistCirc": "23",
+   "hipCirc": "40",
+   "date": "2016-06-01T10:00:00.000Z",
+   "type": "assessments",
+   "parent_id": "e0e60a22788844ec9e70bba856833b4b",
+   "message": "she did a super awesome incredible job"
+}
+
+//Course example 1
+
+{
+   "_id": "e0e60a22788844ec9e70bba85680be76",
+   "_rev": "1-2e44a542b604ce46affededce4bed885",
+   "attendance": [
+       {
+      "_id": "e0e60a22788844ec9e70bba856832b9e",
+      "type": "member",
+      "firstName": "Jimbo",
+      "lastName": "Patterson",
+      "dob": "10-24-1972",
+      "hospital": "St. Peters",
+      "physician": "Dr Rick Marshall",
+      "address": "14882 McDaddy Lane",
+      "state": "SC",
+      "city": "Charleston",
+      "email": "Jimbo.Patterson@gmail.com",
+      "enrolled": "Jan. 20, 2016",
+      "source": "St. Peters",
+      "program": "EIM",
+      "baseline": "Jan. 25, 2016",
+      "group": "Friends on a Mission",
+      "class": "YMCA",
+      "zipcode": "29460",
+      "phoneNumber": "5556789101",
+      "weight": "216",
+      "height": "6'01",
+      "avatar": "http://www.public-domain-photos.com/free-stock-photos-4-big/people/face-12.jpg",
+      "BMI": "28",
+      "diastolic": "82",
+      "systolic": "125",
+      "waist": "38",
+      "w2h": "45"
+}
+   ],
+   "courseName": "Disco Dancing",
+   "courseCode": "",
+   "address": "",
+   "duration": "2hr",
+   "hr": "8",
+   "min": "00",
+   "period": "",
+   "onDays": {
+       "tues": true,
+       "thu": true
+   },
+   "ends": true,
+   "occurances": "",
+   "endDate": "2016-07-07T04:00:00.000Z",
+   "program": "senior jamz",
+   "trainer": "",
+   "maxMembers": "20",
+   "type": "course"
+}
+
+//Course example 2
+
+{
+   "_id": "e0e60a22788844ec9e70bba85680be76",
+   "_rev": "1-2e44a542b604ce46affededce4bed885",
+   "attendance": [
+       {
+      "_id": "e0e60a22788844ec9e70bba856832b9e",
+      "type": "member",
+      "firstName": "Jimbo",
+      "lastName": "Patterson",
+      "dob": "10-24-1972",
+      "hospital": "St. Peters",
+      "physician": "Dr Rick Marshall",
+      "address": "14882 McDaddy Lane",
+      "state": "SC",
+      "city": "Charleston",
+      "email": "Jimbo.Patterson@gmail.com",
+      "enrolled": "Jan. 20, 2016",
+      "source": "St. Peters",
+      "program": "EIM",
+      "baseline": "Jan. 25, 2016",
+      "group": "Friends on a Mission",
+      "class": "YMCA",
+      "zipcode": "29460",
+      "phoneNumber": "5556789101",
+      "weight": "216",
+      "height": "6'01",
+      "avatar": "http://www.public-domain-photos.com/free-stock-photos-4-big/people/face-12.jpg",
+      "BMI": "28",
+      "diastolic": "82",
+      "systolic": "125",
+      "waist": "38",
+      "w2h": "45"
+}
+   ],
+   "courseName": "Ping Pong Zumba",
+   "courseCode": "",
+   "address": "",
+   "duration": "1hr",
+   "hr": "11",
+   "min": "00",
+   "period": "",
+   "onDays": {
+       "tues": true,
+       "thu": true
+   },
+   "ends": true,
+   "occurances": "",
+   "endDate": "2016-07-07T04:00:00.000Z",
+   "program": "funky fitness",
+   "trainer": "",
+   "maxMembers": "10",
+   "type": "course"
+}
+
+//Course example 3
+
+{
+   "_id": "e0e60a22788844ec9e70bba85680be76",
+   "_rev": "1-2e44a542b604ce46affededce4bed885",
+   "attendance": [
+      {
+      "_id": "e0e60a22788844ec9e70bba856832b9e",
+      "type": "member",
+      "firstName": "Jimbo",
+      "lastName": "Patterson",
+      "dob": "10-24-1972",
+      "hospital": "St. Peters",
+      "physician": "Dr Rick Marshall",
+      "address": "14882 McDaddy Lane",
+      "state": "SC",
+      "city": "Charleston",
+      "email": "Jimbo.Patterson@gmail.com",
+      "enrolled": "Jan. 20, 2016",
+      "source": "St. Peters",
+      "program": "EIM",
+      "baseline": "Jan. 25, 2016",
+      "group": "Friends on a Mission",
+      "class": "YMCA",
+      "zipcode": "29460",
+      "phoneNumber": "5556789101",
+      "weight": "216",
+      "height": "6'01",
+      "avatar": "http://www.public-domain-photos.com/free-stock-photos-4-big/people/face-12.jpg",
+      "BMI": "28",
+      "diastolic": "82",
+      "systolic": "125",
+      "waist": "38",
+      "w2h": "45"
+      },
+      {
+    "_id": "e0e60a22788844ec9e70bba856833b4b",
+    "type": "member",
+    "firstName": "Leah",
+    "lastName": "Patel",
+    "dob": "12-12-1989",
+    "hospital": "Paulings",
+    "physician": "Dr Steve Novak",
+    "address": "8823 Bourne-smith Court",
+    "state": "SC",
+    "city": "Charleston",
+    "email": "the.real.patel@gmail.com",
+    "enrolled": "March 07, 2015",
+    "source": "Paulings",
+    "program": "EIM",
+    "baseline": "Jan. 25, 2016",
+    "group": "Young and Fit",
+    "class": "YMCA",
+    "zipcode": "29939",
+    "phoneNumber": "2779309212",
+    "weight": "130",
+    "height": "4'11",
+    "avatar": "http://www.public-domain-photos.com/free-stock-photos-1-big/people/face.jpg",
+    "BMI": "18.5",
+    "diastolic": "78",
+    "systolic": "110",
+    "waist": "28",
+    "w2h": "34"
+}
+   ],
+   "courseName": "Run for your life",
+   "courseCode": "",
+   "address": "",
+   "duration": "3hr",
+   "hr": "15",
+   "min": "00",
+   "period": "",
+   "onDays": {
+       "tues": true,
+       "thu": true
+   },
+   "ends": true,
+   "occurances": "",
+   "endDate": "2016-07-07T04:00:00.000Z",
+   "program": "runners",
+   "trainer": "",
+   "maxMembers": "25",
+   "type": "course"
+}

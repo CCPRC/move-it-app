@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="13px" height="20px" viewBox="0 0 13 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Stroke 83 + Stroke 84 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Program-Classes" sketch:type="MSArtboardGroup" transform="translate(-32.000000, -242.000000)" stroke="#429BFF" stroke-linejoin="round">
+            <g id="Sidebar-Copy" sketch:type="MSLayerGroup">
+                <g id="Sidebar/Programs" sketch:type="MSShapeGroup">
+                    <g id="Nav" transform="translate(0.000000, 62.000000)">
+                        <g id="Main" transform="translate(15.000000, 24.000000)">
+                            <g id="Rectangle-90-+-Dashboard-+-Stroke-148-+-Stroke-149-Copy-2" transform="translate(0.000000, 144.000000)">
+                                <g id="Stroke-83-+-Stroke-84-Copy" transform="translate(18.000000, 13.000000)">
+                                    <path d="M3.61305,0.375 C5.6283,3.033 5.73255,7.43025 3.61305,9.77175 C3.05055,9.111 2.66655,8.38275 2.48805,7.5 C-1.9347,10.66875 0.3963,17.625 5.86305,17.625 C14.0838,17.625 12.55005,3.8895 3.61305,0.375 L3.61305,0.375 Z" id="Stroke-83"></path>
+                                    <path d="M6.23805,10.875 C6.98055,12.19725 5.10405,14.0955 3.98805,13.833 C4.1448,14.709 4.9068,15.375 5.82855,15.375 C6.86505,15.375 7.67205,14.535 7.70355,13.5 C7.73805,12.375 7.36305,10.875 6.23805,10.875 L6.23805,10.875 Z" id="Stroke-84"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

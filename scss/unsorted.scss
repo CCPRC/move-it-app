@@ -1,0 +1,166 @@
+.shadowHover {
+  -webkit-box-shadow: -1px 10px 34px 0px rgba(0,0,0,0);
+  -moz-box-shadow: -1px 10px 34px 0px rgba(0,0,0,0);
+  box-shadow: -1px 10px 34px 0px rgba(0,0,0,0);
+  transition: .25s ease all;
+}
+.shadowHover:hover {
+  -webkit-box-shadow: -1px 10px 34px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 10px 34px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px 10px 34px 0px rgba(0,0,0,0.75);
+  cursor: pointer;
+}
+.moveIndividualPanel {
+  margin-bottom: 20px;
+  background-color: white;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  border-top: 15px solid black;
+  border-radius: 3px 3px 0 0;}
+.area {
+    fill: $moveLightBlue;
+    stroke-width: 0;
+}
+.modal-dialog {
+  width: 70% !important;
+}
+svg {
+  overflow: visible !important;
+}
+.moveline {
+  stroke-width: 2px;
+  stroke: $moveSlateGrey;
+}
+.selectedParticipant {
+    border-color: $moveLightBlue;
+}
+.nonselectedParticipant {
+    border-color: black;
+}
+ .area {
+   fill: $moveLightBlue;
+   stroke-width: 0;
+}
+svg {
+ overflow: visible !important;
+}
+.moveline {
+ stroke-width: 2px;
+ stroke: $moveSlateGrey;
+}
+.reportTypeButton {
+  line-height: 50px;
+  background-color: $moveLightBlue;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+}
+.reportTypeButtonCancel {
+  line-height: 50px;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+  background-color: $moveRed;
+}
+.reportPrintButton {
+  line-height: 50px;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+  background-color: #4daf46;
+}
+.reportCard {
+  background-color: white;
+  padding-bottom: 40px;
+}
+.formP {
+  color:$moveLightGrey;
+  font-size:12px;
+  padding-top:20px;
+  line-height:2px;
+
+}
+.infoP{
+    height:40px;
+}
+
+.date-form { margin: 10px; }
+label.control-label span { cursor: pointer; }
+
+.equal, .equal > div[class*='col-'] {
+   height:320px;
+}
+
+.list-member-item{
+  width:31%;
+  margin:9px;
+  background-color:white !important;
+  padding:20px;
+  border-radius:4px;
+}
+.list-group-item{
+  min-height:380px;
+  width:450px;
+  margin-right:10px;
+  margin-bottom:10px;
+  border-radius:4px;
+}
+.input-group-addon{
+  background-color:white;
+
+}
+.list-class-item {
+  height: 400px;
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.people{
+  width:29%;
+  margin:9px;
+  background-color: #fff;
+  padding:20px;
+}
+
+.ref {
+  font-weight: 900;
+}
+
+.add {
+  font-size: 20px;
+  padding: 3px;
+}
+
+.createdBy {
+  color: gray;
+}
+
+.main {
+  padding: 20px;
+}
+
+.containertop {
+  margin-top: 20px;
+  position:absolute;
+  top:50px;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .main {
+    margin-top:20px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+.courseInfo {
+  margin: 0px 0px 15px 0px;
+}

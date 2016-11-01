@@ -1,0 +1,10 @@
+.authAlert {
+  width: 100%;
+  position: fixed;
+  line-height: 60px;
+  background-color: $moveLightBlue;
+  color: white;
+  bottom: 0;
+  text-align: center;
+  transition: ease all .5s;
+}

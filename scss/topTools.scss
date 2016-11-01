@@ -1,0 +1,132 @@
+.topToolBar {
+  position:fixed;
+  top:0;
+  left:200px;
+  right: 0;
+  border-bottom: 1px solid $moveLightGrey;
+  height: 60px;
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 20px;
+  z-index:2;
+}
+.toptext {
+  margin-left: 20px;
+  line-height: 60px;
+  font-size: 1.5em;
+  display: inline-block;
+}
+.topTools{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  line-height: 60px;
+}
+#memberNav{
+  // border-bottom: 1px solid $moveGrey;
+  color: $moveLightGrey;
+  .aligntoBottom {
+    position:absolute;
+    bottom: 0px;
+  }
+  .topNav {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding-left: 20px;
+    margin: 0 !important;
+    .navItem {
+      padding: 0;
+      letter-spacing:.5px;
+      margin-right:30px;
+      padding-top: 15px;
+      line-height: 30px;
+      transition: ease all .25s;
+    }
+    .navItem:hover {
+      color: $moveGrey;
+    }
+    li {
+      display: inline-block;
+      text-align: center;
+      bottom: 10px;
+      a{
+        text-decoration: none;
+        margin: 0 !important;
+        color: grey !important;
+      }
+    }
+  }
+}
+#peopleNav {
+  height:130px;
+  background-color:white;
+  // border-bottom: 1px solid $moveGrey;
+  color: $moveLightGrey;
+  .aligntoBottom {
+    position:absolute;
+    bottom: 0px;
+  }
+  .topNav {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    padding-left: 20px;
+    margin: 0 !important;
+    .navItem {
+      padding: 0;
+      margin-right:30px;
+      letter-spacing:.8px;
+      padding-top: 15px;
+      line-height: 30px;
+      transition: ease all .25s;
+    }
+    .navItem:hover {
+      color: $moveGrey;
+    }
+    li {
+      display: inline-block;
+      text-align: center;
+      a{
+        text-decoration: none;
+        margin: 0 !important;
+        color: grey !important;
+      }
+    }
+  }
+}
+#addPersonNav {
+  height:130px;
+  background-color:white;
+  border-bottom: 1px solid $moveGrey;
+  color: $moveLightGrey;
+  .aligntoBottom {
+    position:absolute;
+    bottom: 0px;
+  }
+  .topNav {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    padding-left: 20px;
+    margin: 0 !important;
+    .navItem {
+      padding: 0;
+      padding-top: 15px;
+      line-height: 30px;
+      transition: ease all .25s;
+    }
+    .navItem:hover {
+      color: $moveGrey;
+    }
+    li {
+      display: inline-block;
+      text-align: center;
+      a{
+        text-decoration: none;
+        margin: 0 !important;
+        color: grey !important;
+      }
+    }
+  }
+}

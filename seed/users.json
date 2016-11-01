@@ -1,0 +1,69 @@
+[
+	{
+		"firstName": "kimokeo",
+	    "lastName": "rabang",
+	    "type": "user",
+	    "classification": "Navigator",
+	    "organization": "CCPRC",
+	    "auth_id": "auth0|56fc1318bf92e88d02de5d5e",
+	    "phone": "8438196976"
+	},
+	{
+		"firstName": "Imee",
+	    "lastName": "Cuison",
+	    "classification": "Navigator",
+	    "organization": "CCPRC",
+	    "auth_id": "",
+	    "phone": "",
+	    "type": "user"
+	},
+	{
+		"firstName": "Bryan",
+	    "lastName": "Chapel",
+	    "classification": "Navigator",
+	    "organization": "CCPRC",
+	    "auth_id": "",
+	    "phone": "",
+	    "type": "user"
+	},
+	{
+		"firstName": "Lucius",
+	    "lastName": "Nelson",
+	    "classification": "Navigator",
+	    "organization": "CCPRC",
+	    "auth_id": "auth0|56f95d590144c1bd63a773ed",
+	    "phone": "",
+	    "type": "user"
+	},
+	{
+		"_id": "e0e60a22788844ec9e70bba856786e51",
+		"firstName": "Liz",
+		"lastName": "Kline",
+		"classification": "Navigator",
+		"organization": "Roper St. Francis",
+		"phone": "8326474934",
+		"email": "liz@test.com",
+		"address": "21 test street",
+		"city": "Charleston",
+		"state": "SC",
+		"zipCode": "29401",
+		"organizationAddress": "533 King St",
+		"organizationcity": "Charleston",
+		"organizationState": "SC",
+		"organizationZipCode": "29401",
+		"organizationEmail": "test@lincs.io",
+		"organizationPhone": "8885575944",
+		"administrator": "Test",
+		"auth_id": "auth0|56f981430144c1bd63a7866c",
+		"type": "user"
+	},
+	{
+		"firstName": "Jeremy",
+	    "lastName": "English",
+	    "classification": "Navigator",
+	    "organization": "CCPRC",
+	    "auth_id": "",
+	    "phone": "",
+	    "type": "user"
+	}
+]

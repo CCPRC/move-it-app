@@ -1,0 +1,169 @@
+.card {
+  min-height: 425px;
+  min-width: 368px;
+  background-color: white;
+  display: block;
+  border-radius: 3px;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+  overflow:scroll;
+}
+.cardTitle {
+  color : $moveDarkGrey;
+  margin-bottom: 20px;
+}
+.cardBody {
+  display:block;
+  width: 100%;
+}
+.infoStrip {
+  width: 50%;
+  position: relative;
+  display: inline-block;
+}
+.abrvNameAvatar {
+  width: 40px;
+  line-height: 40px;
+  background-color: $moveLightGrey;
+  text-align: center;
+  display: inline-block;
+  color: blue;
+  border-radius: 100%;
+  margin-right: 10px;
+  vertical-align: top;
+}
+.stripTextBox {
+  display: inline-block;
+  width: 65%;
+}
+.stripName {
+  font-size: 1em;
+}
+.stripType {
+  font-size: 1em;
+  color: $moveLightGrey;
+}
+.bottomSpacer{
+  width:100%;
+  display:block;
+  height: 100px;
+  float: left;
+}
+.iconButtons {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+.createX{
+  font-size: 2em;
+  color:red;
+  margin-right: 5px;
+}
+.createPlus {
+  font-size: 2em;
+  color:#9ce645;
+  margin-right: 5px;
+}
+.createCheck{
+  font-size: 2em;
+  color: $moveLightBlue;
+}
+.centerBlock{
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.newClassCard {
+ display: block;
+ border-radius: 4px;
+ padding: 50px;
+ margin: 0 auto;
+}
+.classCard {
+  min-height: 400px;
+  min-width: 200px;
+  background-color: white;
+  display: block;
+  border-radius: 3px;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+.cardGreyTitle {
+  color: grey;
+}
+.cardBlackInfo {
+  color: black;
+  height: 30px;
+}
+.courseName {
+  color:black;
+  font-size: 1.25em;
+}
+.courseNum {
+  color: $moveLightGrey;
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+.courseStrip {
+  margin-bottom: 20px;
+}
+.classCardGrid {
+  margin-bottom: 20px;
+}
+
+.createNew {
+  color: black;
+  background-color: #ededed;
+  border: 2px dotted #D3D3D3;
+  min-height: 300px;
+  min-width: 200px;
+}
+.createNewClass {
+  color: black;
+  background-color: #ededed;
+  border: 2px dotted #D3D3D3 ;
+}
+.createClick {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+}
+.plusIcon {
+  color: $moveBlue;
+  display: inline-block;
+  margin-right: 10px;
+}
+.createTxt{
+  color: grey;
+    display: inline-block;
+}
+#peopleAllContainer {
+  a:hover {
+    text-decoration: none;
+  }
+}
+.addNewHover {
+  border: 2px dotted rgb(211, 211, 211);
+  line-height: 78px;
+  padding: 35px;
+  background-color: rgb(237, 237, 237) !important;
+  a {
+    opacity: .5;
+    transition: all ease .25s;
+  }
+}
+.addNewHover:hover {
+  a {
+    opacity: 1;
+  }
+  background-color: whitesmoke !important;
+  cursor: pointer;
+}
+.panel-default>.panel-heading {
+  background-color: white;
+  border: none;
+}

@@ -1,0 +1,87 @@
+.greyLine{
+  width:100%;
+  height:2px;
+  background-color: rgb(128, 128, 128);
+  margin-top: 80px;
+  margin-bottom: 20px;
+  opacity: .2;
+}
+.loginInput{
+  width: 100%;
+  background-color: white;
+  height: 55px;
+  border-radius: 3px;
+  border-style: none;
+  padding-left:15px;
+ }
+ .centeredContainer{
+  margin-top:40px;
+ }
+ 
+ .login-content {
+   color: gray;
+   font-size:15px;
+   .loginLogo {
+     width: 50%;
+     display:block;
+     margin: 0 auto;
+   }
+ }
+
+ .loginbutton {
+   background-color: #4DA6FF;
+   color: white;
+   width: 100%;
+   line-height: 55px;
+   font-size: 1.25em;
+   margin-top: 40px;
+ }
+
+ .loginImg {
+   margin-left: 45%;
+ }
+
+ .email {
+   width: 100%;
+   height: 40px;
+   border-radius: 3px;
+   border-style: none;
+ }
+
+ .password {
+   width: 100%;
+   height: 40px;
+   border-radius: 3px;
+   border-style: none;
+ }
+.loginForm {
+  p {
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  a {
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.op1 {
+  opacity: 1;
+}
+.op0 {
+  opacity: 0;
+}
+#createAccountLink {
+  margin-top:20px;
+}
+#loginBackLink {
+  margin-top:20px;
+}
+#boltIcon {
+  padding-left:10px; 
+  margin-top:-10px;
+}

@@ -1,0 +1,62 @@
+.memberQuickInfoRow {
+  width: 100%;
+  height: 62px;
+  padding-top: 10px;
+  padding-left: 30px;
+  position: fixed;
+  top: 0;
+  left: 200px;
+  z-index:5;
+}
+.memberAvatar {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  margin-right: 20px;
+  border-radius: 100%;
+  float: left;
+  margin-top: 10px;
+}
+.memberName {
+  font-size: 1.5em;
+  color: $moveDarkGrey;
+}
+.statusColorBox {
+  height: 10px;
+  width: 10px;
+}
+.questionnaireSpacing {
+  padding: 10px;
+  min-height: 100px;
+}
+#questionnaire {
+  .panel-default {
+    min-height: 150px;
+  }
+  .checkBoxPadding {
+    padding-left: 50px;
+  }
+  .blueTxt {
+    height: 50px;
+    padding-right: 20px;
+    display: inline-block;
+    float: left;
+  }
+  .panel-heading {
+    margin-bottom: 60px;
+    p {
+      display: inline-block;
+      width: 90%;
+      float: left;
+      margin-top: 20px;
+    }
+  }
+}
+#panelCol {
+  .col-md-6 {
+    min-height: 100px;
+  }
+}
+.hiddenInput {
+  margin-bottom: 20px;
+}
